@@ -1,0 +1,3 @@
+Documentation link : https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
+To convert to desired formate : df.dt.strftime("FORMAT")
+for example : df['date'] = pd.to_datetime(df['date'], format="%Y-%m-%d %H:%M:%S")
